@@ -294,7 +294,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://meramy.top/2018/07/19/win10系统下端口占用/">
+    <link itemprop="mainEntityOfPage" href="http://meramy.top/2018/07/20/win10系统下端口占用/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Meredith Ma">
@@ -313,7 +313,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/07/19/win10系统下端口占用/" itemprop="url">【win10】端口已被占用</a></h1>
+                <a class="post-title-link" href="/2018/07/20/win10系统下端口占用/" itemprop="url">【win10】端口已被占用</a></h1>
         
 
         <div class="post-meta">
@@ -325,8 +325,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-19T18:50:00+08:00">
-                2018-07-19
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-20T18:50:00+08:00">
+                2018-07-20
               </time>
             
 
@@ -339,7 +339,7 @@
 		  <span>
 		    <span>更新于</span>
 		    <time>
-		 	 Invalid date
+		 	 2018-07-20
 		    </time>
 		  </span>
 
@@ -387,7 +387,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  129
+                  157
                 </span>
               
 
@@ -426,19 +426,223 @@
       
         
           
-          1.命令行输入命令，查询是哪个进程（PID）占用了端口
-#netstat -ano | findstr port
-#port替换为被占用的端口号
+          这种情况只需要利用cmd命令行查出哪个进程异常占用了端口，终止此程序即可
+1.查询是哪个进程（PID）占用了端口
+netstat -ano | findstr port    
 
-#假设端口号为4000，返回结果的最右侧一串数字（8684）即为PID
-#2.命令行输入命令，使用PID查询是哪个程序占用了端口
-#tasklist | findstr 8684
-#3.打开任务管理器，详细信息选项卡中可以看到PID对应的程序，终止此程序即可解决本端口被占用的问题
+port替换为被占用的端口号
+    
+假设端口号为4000，返回结果的最右侧一串数字（8684）即为PID    
+2.使用PID查询是哪个程序占用了端口
+tasklist | findstr 8684
+
+3.终止占用端口的程序打开任务管理器，详细信息选项卡中可以看到PID对应的程序，终止此程序即可解决本端口被占用的问题
 
           
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/07/19/win10系统下端口占用/#more" rel="contents">
+            <a class="btn" href="/2018/07/20/win10系统下端口占用/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://meramy.top/2018/07/20/Python下的文件读写操作/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Meredith Ma">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Meramy's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/20/Python下的文件读写操作/" itemprop="url">Python下的文件读写操作</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-20T16:04:00+08:00">
+                2018-07-20
+              </time>
+            
+
+            
+
+            
+          </span>
+		  
+		  
+		  <span>
+		    <span>更新于</span>
+		    <time>
+		 	 Invalid date
+		    </time>
+		  </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Python/" itemprop="url" rel="index">
+                    <span itemprop="name">Python</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  258
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          读取一个文件分为三步1.open一个文件返回一个fileobject文件对象    
+2.调用fileObject对象的read(),readline(),readlines()方法读取文件内容    
+3.调用fileObject的close()方法关闭打开的文件    
+通常的方式是
+
+with open(filename, md) as f:
+
+f.readlines()
+
+
+文件打开方式的区别    r，rb：【默认】只读，文件指针放在开头w，wb：只写，指针放在开头，若文件已存在则从开头覆盖；若不存在则创建新文件r+，rb+：读写，指针开头w+，wb+：读写，指针放在开头，若文件已存在则从开头覆盖；若不存在则创建新文件a，ab，a+，ab+：追加，若以存在从末尾开始写，若不存在则创建新文件    
+读取内容的方法1.read():一次读取整个文件，不适用于大文件    
+2.readline():一次读取一行，占内存小，速度慢效率低    
+3.readlines():一次性读取，将内容分析成一个行的列表，可以由for…in…处理
+
+          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/20/Python下的文件读写操作/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -692,7 +896,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -703,7 +907,7 @@
               
               <div class="site-state-item site-state-categories">
                 
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
                 
               </div>
@@ -714,7 +918,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">标签</span>
                 
               </div>
@@ -831,7 +1035,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共2.0k字</span>
+  <span class="post-count">博客全站共2.3k字</span>
 </div>
         
 

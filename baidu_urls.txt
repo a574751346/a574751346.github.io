@@ -1,2 +1,3 @@
-http://meramy.top/2018/07/19/win10系统下端口占用/
+http://meramy.top/2018/07/20/win10系统下端口占用/
+http://meramy.top/2018/07/20/Python下的文件读写操作/
 http://meramy.top/2018/07/19/hello-world/
