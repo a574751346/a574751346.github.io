@@ -3,6 +3,49 @@
 
 
     
+    
+  <url>
+    <loc>http://meramy.top/2018/07/19/hello-world/</loc>
+    <lastmod>2018-07-23T06:01:28.321Z</lastmod>
+    <data>
+        <display>
+        <title>小林子的第一封家书</title>
+        <pubTime>2018-07-19T07:20:00.000Z</pubTime>
+        
+        <tag>家书</tag>
+         
+         
+           
+             
+              <breadCrumb title="家书" url="http://meramy.top/categories/%E5%AE%B6%E4%B9%A6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+  <url>
+    <loc>http://meramy.top/2018/07/23/k-%E8%BF%91%E9%82%BB%E7%AE%97%E6%B3%95%E5%B0%8F%E7%BB%93%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2018-07-23T05:39:28.768Z</lastmod>
+    <data>
+        <display>
+        <title>k-近邻算法小结笔记</title>
+        <pubTime>2018-07-23T04:45:00.000Z</pubTime>
+        
+        <tag>机器学习实战</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="http://meramy.top/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://meramy.top/2018/07/20/Python%E4%B8%8B%E7%9A%84%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99%E6%93%8D%E4%BD%9C/</loc>
     <lastmod>2018-07-20T08:48:57.746Z</lastmod>
@@ -50,22 +93,4 @@
 
     
     
-    
-    
-    
-    
-  <url>
-    <loc>http://meramy.top/2018/07/19/hello-world/</loc>
-    <lastmod>2018-07-20T02:10:34.417Z</lastmod>
-    <data>
-        <display>
-        <title>小林子的第一封家书</title>
-        <pubTime>2018-07-19T07:20:18.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
 </urlset>
